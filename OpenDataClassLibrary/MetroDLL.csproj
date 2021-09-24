@@ -48,9 +48,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DotNetOpenData\DotNetOpenData.csproj">
+    <ProjectReference Include="..\DotNetOpenData\Metro.csproj">
       <Project>{c9eb7304-5a23-441f-b7d2-761b495ee778}</Project>
-      <Name>DotNetOpenData</Name>
+      <Name>Metro</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

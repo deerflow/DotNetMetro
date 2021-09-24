@@ -27,7 +27,7 @@
         <TextBox Grid.Row="2" Grid.Column="1" Width="250" Text="{Binding Latitude}" />
         <Label Grid.Row="3">Rayon (en m)</Label>
         <TextBox Grid.Row="3" Grid.Column="1" Width="250" Text="{Binding Radius}" />
-        <Button Grid.Row="4" Click="Button_Click">Valider</Button>
+        <Button Grid.Row="4" Command="{Binding OnSubmitClick}">Valider</Button>
 
         <ScrollViewer Grid.Row="5" Grid.ColumnSpan="3">
             <ItemsControl ItemsSource="{Binding Stations}">

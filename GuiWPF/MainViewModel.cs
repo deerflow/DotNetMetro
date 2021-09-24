@@ -17,7 +17,7 @@ namespace GuiWPF
 
         public MainViewModel()
         {
-            List<Station> stations = new Metro().GetStationsByPosition(5, 45, 80000);
+            List<Station> stations = new Metro().GetStationsByPosition(5.731524158690335, 45.18502649145396, 8000);
             Stations.Clear();
             stations.ForEach(station => Stations.Add(new LocationToString(station.lat, station.lon)));
         }
