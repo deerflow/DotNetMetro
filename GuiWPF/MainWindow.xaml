@@ -1,0 +1,23 @@
+﻿<Window x:Class="GuiWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GuiWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        xmlns:map="clr-namespace:Microsoft.Maps.MapControl.WPF;assembly=Microsoft.Maps.MapControl.WPF">
+    <Grid>
+        <map:Map Center="45.18502649145396, 5.731524158690335" ZoomLevel="12" >
+            <map:MapItemsControl ItemsSource="{Binding Stations}">
+                <map:MapItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <map:Pushpin Location="{Binding Location}" />
+                    </DataTemplate>
+                </map:MapItemsControl.ItemTemplate>
+            </map:MapItemsControl>
+            <!--<map:Pushpin Location="{Binding Location}" />-->
+        </map:Map>
+        
+    </Grid>
+</Window>

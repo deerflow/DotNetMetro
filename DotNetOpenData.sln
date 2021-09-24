@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOpenData", "DotNetOpenData\DotNetOpenData.csproj", "{C9EB7304-5A23-441F-B7D2-761B495EE778}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOpenDataTests", "DotNetOpenDataTests\DotNetOpenDataTests.csproj", "{46785E18-0542-4045-BA87-1C8DD1362769}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenDataClassLibrary", "OpenDataClassLibrary\OpenDataClassLibrary.csproj", "{23D0D030-07E2-4D9B-937A-1D1902A60BF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GUI", "GUI\GUI.csproj", "{F4633115-1D17-43F2-9CAE-E0BE4A0F652E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A81FF711-5191-426C-9253-F4DFB708AFFE}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuiWPF", "GuiWPF\GuiWPF.csproj", "{106EE7AA-5D20-41CC-BEF4-C3D31C5AF6C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9EB7304-5A23-441F-B7D2-761B495EE778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9EB7304-5A23-441F-B7D2-761B495EE778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9EB7304-5A23-441F-B7D2-761B495EE778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9EB7304-5A23-441F-B7D2-761B495EE778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46785E18-0542-4045-BA87-1C8DD1362769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46785E18-0542-4045-BA87-1C8DD1362769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46785E18-0542-4045-BA87-1C8DD1362769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46785E18-0542-4045-BA87-1C8DD1362769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23D0D030-07E2-4D9B-937A-1D1902A60BF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23D0D030-07E2-4D9B-937A-1D1902A60BF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23D0D030-07E2-4D9B-937A-1D1902A60BF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23D0D030-07E2-4D9B-937A-1D1902A60BF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4633115-1D17-43F2-9CAE-E0BE4A0F652E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4633115-1D17-43F2-9CAE-E0BE4A0F652E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4633115-1D17-43F2-9CAE-E0BE4A0F652E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4633115-1D17-43F2-9CAE-E0BE4A0F652E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{106EE7AA-5D20-41CC-BEF4-C3D31C5AF6C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{106EE7AA-5D20-41CC-BEF4-C3D31C5AF6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{106EE7AA-5D20-41CC-BEF4-C3D31C5AF6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{106EE7AA-5D20-41CC-BEF4-C3D31C5AF6C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4566226C-FBF7-4917-9831-B7BC59F42DAF}
+	EndGlobalSection
+EndGlobal
