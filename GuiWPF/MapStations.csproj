@@ -100,9 +100,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OpenDataClassLibrary\OpenDataClassLibrary.csproj">
-      <Project>{23d0d030-07e2-4d9b-937a-1d1902a60bf8}</Project>
-      <Name>OpenDataClassLibrary</Name>
+    <ProjectReference Include="..\DotNetOpenData\Metro.csproj">
+      <Project>{c9eb7304-5a23-441f-b7d2-761b495ee778}</Project>
+      <Name>Metro</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
